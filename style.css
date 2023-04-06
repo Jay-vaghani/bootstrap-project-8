@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Jost", sans-serif;
+}
+
+:root {
+  --primary-blue: #37517e;
+  --secondary-blue: #47b2e4;
+  --light-grey-bg: #f3f5fa;
+}
+
+/* Common Css  */
+
+.bg-primary {
+  background-color: var(--primary-blue) !important;
+}
+
+.text-primary {
+  color: var(--primary-blue) !important;
+}
+
+.bg-info {
+  background-color: var(--secondary-blue) !important;
+}
+
+.text-info {
+  color: var(--secondary-blue) !important;
+}
+
+/* Header  */
+
+.header {
+  background: var(--primary-blue);
+}
+
+.header .nav-link {
+  transition: 0.3s ease-in-out;
+  color: #fff;
+}
+
+.header .nav-link:hover {
+  color: var(--secondary-blue);
+}
