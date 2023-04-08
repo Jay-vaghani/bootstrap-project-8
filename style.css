@@ -2,6 +2,8 @@
 
 * {
   font-family: "Jost", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -41,4 +43,31 @@
 
 .header .nav-link:hover {
   color: var(--secondary-blue);
+}
+
+.header .image-container img {
+  animation: float 3s infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Company Logo */
+
+.company-logo img {
+  filter: grayscale(100);
+  transition: 0.2s ease-in-out;
+}
+.company-logo img:hover {
+  filter: grayscale(0);
+  transform: scale(1.07);
 }
