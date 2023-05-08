@@ -133,3 +133,27 @@
 .services .service-card:hover h3 {
   color: var(--secondary-blue) !important;
 }
+
+/* Call To Action */
+
+.call-to-action {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url("./images/Banner/cta-bg.jpg") center;
+}
+
+
+/* TEAM  */
+
+.team{
+  background: var(--light-grey-bg);
+}
+
+.team .team-card{
+  transition: var(--hover);
+  border-radius:  7px;
+}
+
+.team .team-card:hover{
+  transform: translateY(-7px);
+
+}
